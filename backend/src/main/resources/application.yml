@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mariadb://192.168.56.101:3306/home_decoration?characterEncoding=utf8&useSSL=false&allowMultiQueries=true
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: baiguo123
+
+mybatis:
+   configuration:
+      map-underscore-to-camel-case: true
+
+file:
+  uploadFolder: /home/baiguo/桌面/vue3-home_decoration/pictures/
+admin:
+  name: admin
+  password: 123456
